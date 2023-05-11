@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(45deg, rgb(4, 255, 171), lightblue);
+    font-family: sans-serif;
+}
+.deposit{
+    background-color: aqua;
+    width: 350px;
+    height: 150px;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#total h3{
+    font-size: 25px;
+    font-weight: normal;
+}
+.deposit i{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 50px;
+    color: green;
+}
+.balance{
+    background-color: aqua;
+    width: 350px;
+    height: 150px;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.balance i{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 50px;
+    color: blue;
+
+}
+.withdraw{
+    background-color: aqua;
+    width: 350px;
+    height: 150px;
+    padding: 30px 20px;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.withdraw i{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    font-size: 50px;
+    color: red;
+
+}
+.depositing{
+    background: transparent;
+    width: 400px;
+    height: 200px;
+    padding: 25px 30px;
+    position: relative;
+    border-radius: 10px;
+    margin: 100px 50px;
+    box-shadow: 5px 5px 15px lightblue, -5px -5px 15px lightblue;
+
+}
+.withdrawing {
+    background: transparent;
+    width: 400px;
+    height: 200px;
+    padding: 25px 30px;
+    position: relative;
+    border-radius: 10px;
+    margin: 100px 50px;
+    box-shadow: 5px 5px 15px lightgrey, -5px -5px 15px lightgrey;
+
+}
+.depositing h4, .withdrawing h4{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.depositing input, .withdrawing input{
+    display: block;
+    width: 300px;
+    margin-left: 25px;
+    border-radius: 5px;
+
+}
+.depositing button, .withdrawing button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 15px 25px;
+    border-radius: 5px;
+    background-color: blue;
+}
+#profile{
+    padding: 10px;
+    position: relative;
+}
+.dropdown button{
+    position: absolute;
+    right: 20px;
+}
+.dropdown ul{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+.dropdown a{
+    color: white;
+}
+#home{
+    font-size: 50px;
+    color: #fff;
+    margin:0px;
+}
+.gear:hover{
+    background-color:rgb(17, 0, 255);
+    width: 100px;
+}
+.house:hover{
+    background-color:rgb(17, 0, 255);
+    width: 100px;
+}
+.bars:hover{
+    background-color: rgb(17, 0, 255);
+    width: 100px;
+}

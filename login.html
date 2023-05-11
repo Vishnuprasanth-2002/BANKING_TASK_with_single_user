@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container" id="log">
+        <div class="header">
+            <h2>LOGIN</h2>
+        </div>
+        <form class="form" id="form1">
+        <div class="form-control">
+            <label>Email or phone</label>
+            <input type="text" placeholder="Email or phone" id="email" required>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small id="message">error message</small>
+        </div>
+        <div class="form-control">
+            <label>Password</label>
+            <input type="password" placeholder="password" id="password" required>
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <span><i class="fa-regular fa-eye" id="pass" style="visibility: visible;"></i></span>
+            <span><i class="fa-solid fa-eye-slash" id="passhide" style="visibility: hidden;"></i></span>
+            <small>error message</small>
+        </div>
+        <button id="logsub" type="submit">LOGIN</button>
+        <h5>create a account</h5>
+        <a id="signin">SIGNIN?</a> 
+        </form>
+    </div>
+
+
+    <div class="container" id="sign" style="display: none;">
+        <div class="header">
+            <h2>SIGN IN</h2>
+        </div>
+        <form class="form" id="form2">
+        <div class="form-control">
+            <label>Username</label>
+            <input type="text" placeholder="Username" id="username">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>error message</small>
+        </div>
+        <div class="form-control">
+            <label>Email</label>
+            <input type="email" placeholder="Email" id="email2">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small >error message</small>
+        </div>
+        <div class="form-control">
+            <label>phone</label>
+            <input type="number" placeholder="phone" id="phone">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small >error message</small>
+        </div>
+        <div class="form-control">
+            <label>DOB</label>
+            <input type="date" placeholder="" id="dob">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small >error message</small>
+        </div>
+        <div class="form-control">
+            <label>Password</label>
+            <input type="password" placeholder="password" id="password1">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>error message</small>
+        </div>
+        <div class="form-control">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm password" id="password2">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>error message</small>
+        </div>
+        <button id="sub">submit</button>
+        <h5>already have a account</h5>
+        <a id="login">LOGIN?</a> 
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
